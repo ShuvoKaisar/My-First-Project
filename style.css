@@ -737,9 +737,9 @@ marquee img{
 	justify-content: center;
 	align-items: center;
 	text-align: left;
-	padding: 10% 5% 0% 5%;
+	padding: 10% 5% 0% 10%;
 	margin-bottom: 5%;
-	z-index: 10;
+	z-index: 100;
 }
 .contact-page h1{
 	font-size: 40px;
@@ -779,7 +779,7 @@ marquee img{
 	padding: 0px;
 }
 .input-box{
-	min-width: 345px;
+	width: 345px;
 	height: 50px;
 	margin-bottom: 2%;
 	margin-right: 2%;
@@ -789,11 +789,10 @@ marquee img{
 	box-shadow: 0px 0px 4px #9C9992;
 }
 .msg{
-	width: 705px;
+	width: 715px;
 	height: 130px;
 	border: 2px solid transparent;
-	margin-top: 10px;
-	padding-left: 10px;
+	padding-left: 2%;
 	padding-top: 10px;
 	font-size: 17px;
 	box-shadow: 0px 0px 4px #9C9992;
@@ -808,7 +807,7 @@ marquee img{
 }
 .send{
 	width: 165px;
-	height: 45px;
+	min-height: 45px;
 	box-shadow: 0px 0px 5px #9C9992;
 	color: #7F71DE;
 	float: left;
@@ -817,6 +816,7 @@ marquee img{
 	font-size: 16px;
 	font-weight: 600;
 	transition: 0.5s;
+	z-index: 100;
 }
 
 .send:hover{
