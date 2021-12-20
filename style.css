@@ -17,7 +17,7 @@
 .menubar{
 	width: 100%;
 	height: 60px;
-	padding: 0px 100px;
+	padding: 0px 5%;
 	display: flex;
 	background: white;
 	justify-content: space-between;
@@ -37,7 +37,7 @@
 	width: 100%;
 }
 .menubar .menu-links{
-	padding-right: 250px;
+	padding-right: 6%;
 	float: left;
 	text-align: center;
 }
@@ -74,7 +74,7 @@
 
 .home-page{
 	width: 100%;
-	height: 90vh;
+	height: 95vh;
 	background: url(img/hero.svg), #FFF9F1;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -86,28 +86,27 @@
 	height: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
 	flex-direction: column;
-	padding: 0px 250px;
+	padding: 0px 12%;
 }
 .left-home-content h1{
 	font-size: 50px;
 	font-weight: 700;
 	margin-bottom: 20px;
-	padding: 0px 100px;
+	padding-right: 10%;
 }
 .left-home-content p{
 	font-size: 17px;
 	padding-right: 60px;
 	color: #9C9992;
-	padding: 0px 100px;
+	padding-right: 25%;
 	font-weight: 600;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .btn{
 	width: 170px;
 	height: 50px;
-	margin-right: 365px;
 	background: #5927ff;
 	font-size: 18px;
 	font-weight: 600;
@@ -160,7 +159,7 @@
 	text-align: center;
 	display: flex;
 	align-items: center;
-	margin: 200px auto;
+	margin: 12% auto;
 	flex-direction: column;
 }
 .features h1{
@@ -171,7 +170,7 @@
 .features p{
 	font-size: 17px;
 	font-weight: 600;
-	padding: 0px 460px;
+	padding: 0% 25%;
 	color: #9C9992;
 	margin-bottom: 70px;
 }
@@ -181,8 +180,7 @@
 	flex-wrap: wrap;
 }
 .features-col4{
-	min-width: 280px;
-	max-width: 280px;
+	width: 280px;
 	height: 200px;
 	box-shadow: 0px 0px 8px #9C9992;
 	border-radius: 8px;
@@ -228,37 +226,39 @@
 
 .about-page{
 	width: 100%;
-	height: 700px;
+	height: 90vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: #FAF8FF;
+	padding: 5% 1%;
 }
 .about-page .left-about-content{
 	width: 50%;
 	height: 100%;
 	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	padding-left: 280px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
 }
 .left-about-content img{
-	width: 90%;
+	height: 100%;
 	animation: up-down 2s linear alternate infinite;
 }
 .about-page .right-about-content{
 	width: 50%;
 	height: 100%;
-	padding: 280px 80px;
+	padding: 11% 5%;
 }
 .right-about-content h1{
-	font-size: 40px;
+	font-size: 42px;
+	margin-bottom: 15px;
 }
 .right-about-content p{
 	font-size: 17px;
 	font-weight: 600;
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	padding-right: 10%;
 	color: #9C9992;
 	text-align: justify;
 }
@@ -295,16 +295,18 @@
 	width: 60%;
 	float: left;
 	height: 100%;
-	padding: 200px;
+	padding: 10%;
 }
 .left-app-content h1{
 	font-size: 40px;
 	margin-bottom: 15px;
+	padding-right: 5%;
 }
 .left-app-content p{
 	font-size: 15px;
 	font-weight: 600;
 	text-align: justify;
+	padding-right: 15%;
 	margin-bottom: 25px;
 }
 .left-app-content .download-btn{
@@ -341,10 +343,10 @@
 	position: relative;
 }
 .right-app-content img{
-	height: 450px;
+	height: 500px;
 	position: absolute;
 	bottom: 0;
-	left: 200px;
+	left: 12%;
 }
 
 /*----------- Download App Section Css End -----------*/
@@ -361,7 +363,8 @@
 
 .package-page{
 	width: 100%;
-	height: 100vh;
+	height: auto;
+	padding: 10px 0px 80px 0px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -369,20 +372,20 @@
 	margin: auto;
 }
 .package-page h1{
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 15px;
-	padding: 0px 650px;
+	padding: 0px 25%;
 }
 .package-page p{
 	font-size: 17px;
 	font-weight: 600;
-	padding: 0px 460px;
+	padding: 0px 30%;
+	margin-bottom: 100px;
 	color: #9C9992;
 }
 .package-page .package-row{
 	display: flex;
-	margin: auto;
 	flex-wrap: wrap;
 	position: relative;
 }
@@ -493,7 +496,7 @@
 	text-align: center;
 	margin: auto;
 	position: relative;
-	padding: 200px 400px;
+	padding: 200px 0px;
 }
 .question-page h3{
 	font-size: 23px;
@@ -503,7 +506,10 @@
 	margin-bottom: 20px;
 }
 .question{
+	width: 80%;
+	margin: auto;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 .question-bar{
@@ -567,20 +573,19 @@
 
 .our-team{
 	width: 100%;
-	height: 65vh;
+	height: 70vh;
 	text-align: center;
-	margin-top: 100px;
+	margin: 8% auto;
 }
 .our-team h1{
 	font-size: 30px;
 	font-weight: 600;
 	margin-bottom: 15px;
-	padding: 0px 550px;
 }
 .our-team p{
 	font-size: 17px;
 	font-weight: 600;
-	padding: 0px 560px;
+	padding: 0% 29%;
 	color: #9C9992;
 }
 .team-card{
@@ -589,6 +594,7 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 50px;
+	flex-wrap: wrap;
 }
 .team-card .card{
 	width: 300px;
@@ -693,16 +699,15 @@
 	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 15px;
-	padding: 0px 550px;
 }
 .clients-review p{
 	font-size: 17px;
 	font-weight: 600;
-	padding: 0px 500px;
+	padding: 0px 30%;
 	color: #9C9992;
 }
 marquee{
-	width: 1250px;
+	width: 70%;
 	height: 50px;
 	margin-top: 70px;
 }
@@ -727,34 +732,33 @@ marquee img{
 
 .contact-page{
 	width: 100%;
-	height: 47vh;
+	height: 55vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: left;
-	padding: 100px 200px;
+	padding: 10% 5% 0% 5%;
+	margin-bottom: 5%;
+	z-index: 10;
 }
 .contact-page h1{
 	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 15px;
-	padding: 0px 40px;
 }
 .contact-page p{
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 600;
-	padding: 0px 50px;
 	color: #9C9992;
 }
 .contact-page .left-contact-content{
-	width: 50%;
+	width: 40%;
 	height: 100%;
-	float: left;
 	text-align: left;
 }
 .left-contact-content p{
 	margin-bottom: 20px;
-	padding: 0px 40px;
+	padding-right: 15%;
 }
 .address{
 	margin-bottom: 20px;
@@ -767,27 +771,26 @@ marquee img{
 }
 
 .right-contact-content{
-	width: 50%;
+	width: 60%;
 	height: 100%;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
-	text-align: center;
+	text-align: left;
 	padding: 0px;
 }
 .input-box{
-	width: 350px;
+	min-width: 345px;
 	height: 50px;
-	margin: 10px;
+	margin-bottom: 2%;
+	margin-right: 2%;
 	border: 2px solid transparent;
 	padding: 10px;
 	font-size: 17px;
 	box-shadow: 0px 0px 4px #9C9992;
 }
 .msg{
-	width: 725px;
+	width: 705px;
 	height: 130px;
-	margin-left: -179px;
 	border: 2px solid transparent;
 	margin-top: 10px;
 	padding-left: 10px;
@@ -809,8 +812,7 @@ marquee img{
 	box-shadow: 0px 0px 5px #9C9992;
 	color: #7F71DE;
 	float: left;
-	margin-top: 155px;
-	margin-left: 14px;
+	margin-top: 15px;
 	background: transparent;
 	font-size: 16px;
 	font-weight: 600;
@@ -837,20 +839,22 @@ marquee img{
 
 .footer{
 	width: 100%;
-	height: 84vh;
+	height: auto;
 	background: url(img/wave.png);
 	background-size: cover;
-	background-position: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-content: flex-end;
 	position: relative;
 	flex-wrap: wrap;
+	padding-top: 350px;
+	padding-bottom: 50px;
+	margin-bottom: -20px;
+	margin-top: -4%;
 }
 .footer-col4{
-	flex-basis: 25%;
-	padding: 25px 120px;
-	margin-top: 300px;
+	width: 20%;
+	padding: 3% 3%;
 }
 .footer-col4 .logo{
 	width: 200px;
@@ -908,12 +912,13 @@ hr{
 	background: whitesmoke;
 	border-radius: 20px;
 	position: absolute;
-	top: 92%;
+	top: 90%;
 }
+
 .copy h2{
 	font-size: 16px;
 	color: whitesmoke;
-	margin-top: 75px;
+	margin-top: 15px;
 }
 .copy span:hover{
 	color: #5927ff;
